@@ -24,5 +24,5 @@ export const Failure = ({ error }: CellFailureProps) => (
 )
 
 export const Success = ({ article }: CellSuccessProps<ArticleQuery>) => {
-  return <Article key={article.id} article={article}/>
+  return <Article key={article.id} article={article} />
 }
